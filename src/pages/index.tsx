@@ -10,17 +10,17 @@ const Home: React.FC = () => {
         <title>Hypesoft - Desafio</title>
       </Head>
       <NavBar>
-        <Link>
-          <span>About</span>
+        <Link href='#'>
+          <ButtonNav>About</ButtonNav>
         </Link>
-        <Link>
-          <span>Services</span>
+        <Link href='#'>
+          <ButtonNav>Services</ButtonNav>
         </Link>
-        <Link>
-          <span>Works</span>
+        <Link href='#'>
+          <ButtonNav>Works</ButtonNav>
         </Link>
-        <Link>
-          <span>Contact</span>
+        <Link href='#'>
+          <ButtonNav>Contact</ButtonNav>
         </Link>
       </NavBar>
       <Main>
@@ -31,15 +31,15 @@ const Home: React.FC = () => {
           Product Designer, UI/UX Designer, and developer based in Brazil. Over the past 17 years, as an art director and designer, I’ve worked with big companies and up-and-coming startups.
         </SubHeadline>
         <MainActions>
-          <Link>
-            <ButtonNav>
+          <Link href='#'>
+            <ButtonActions>
               Hire Me
-            </ButtonNav>
+            </ButtonActions>
           </Link>
-          <Link>
-            <ButtonNav>
+          <Link href='#'>
+            <ButtonActions>
               View Work
-            </ButtonNav>
+            </ButtonActions>
           </Link>
         </MainActions>
       </Main>
@@ -48,3 +48,14 @@ const Home: React.FC = () => {
 }
 
 export default Home
+
+export const PageContainer = styled.div``
+export const NavBar = styled.div``
+export const Main = styled.main``
+export const Headline = styled.h1``
+export const SubHeadline = styled.h2``
+export const MainActions = styled.div``
+
+export const Button = styled.button``
+export const ButtonNav = styled(Button)``
+export const ButtonActions = styled(Button)``
