@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet='utf-8' />
-          <link href="https://fonts.googleapis.com/css?family=Roboto:400, 500, 700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Inter:400, 500, 600, 700" rel="stylesheet" />
         </Head>
         <body>
           <Main />
