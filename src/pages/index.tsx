@@ -99,6 +99,10 @@ export const Main = styled.main`
   max-width: 1100px;
   padding: 230px 0px 0px 290px;
 `
+export const purpleSquare = styled.div`
+
+`
+
 export const Headline = styled.h1`
   font-weight: 400;
   font-size: 80px;
